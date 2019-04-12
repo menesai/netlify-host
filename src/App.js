@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Form from './components/Form'
-import GetReq from './components/GetReq'
+
+import routes from './routes';
+import {BrowserRouter} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-       <GetReq/>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          {routes}
+        </div>
+      </BrowserRouter>
     );
   }
 }
