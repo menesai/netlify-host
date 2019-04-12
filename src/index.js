@@ -6,8 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import netlifyIdentity from 'netlify-identity-widget'
 
 // // var buttons = document.createElement('div')
-window.netlifyIdentity = netlifyIdentity;
-netlifyIdentity.init()
+// window.netlifyIdentity = netlifyIdentity;
+// netlifyIdentity.init()
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
