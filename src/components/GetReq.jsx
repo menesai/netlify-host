@@ -25,7 +25,7 @@ class GetReq extends Component {
   //  })
 
   render() {
-    console.log(this.state.newData)
+    // console.log(this.state.newData)
     let display =this.state.newData.map((el, i) => {
       return(
         <div key={i}>
